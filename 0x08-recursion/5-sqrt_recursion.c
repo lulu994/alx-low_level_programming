@@ -1,13 +1,13 @@
 #include "main.h"
 #include <stdio.h>
 
+int _sqrt_helper(int n, int i);
 /**
   * _sqrt_recursion - returns the natural square root of a number.
   *If n does not have a natural square root, return -1
   *@n: number to calculate the square root
   *Return: the resulting square root
   */
-int _sqrt_helper(int n, int i);
 int _sqrt_recursion(int n)
 
 {
@@ -17,9 +17,9 @@ int _sqrt_recursion(int n)
 /**
   *_sqrt_helper - recurses to find the natural square root of a number
   *@n: number to calculate the square root
-  *@i: argument that represent the guess for the square root of n.
+  *@i: iterator
   *
-  * Return: he result of the recursive call or the natural square root of n.
+  * Return: result of the recursive call or the natural square root of n
   */
 int _sqrt_helper(int n, int i)
 {
