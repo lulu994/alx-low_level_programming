@@ -5,7 +5,7 @@
 
 /**
   *check_num - check - string there are digit
-  * @str: array str
+  *@str: array str
   *Return: Always 0
   */
 int check_num(char *str)
@@ -13,7 +13,6 @@ int check_num(char *str)
 	unsigned int count;
 
 	count = 0;
-
 	while (count < strlen(str))
 	{
 		if (!isdigit(str[count]))
@@ -29,7 +28,7 @@ int check_num(char *str)
   * main - Print the name of the program
   *@argc: Count arguments
   *@argv: Arguments
-  *Return: Always 0
+  *Return: Always 0 (Success)
   */
 int main(int argc, char *argv[])
 {
@@ -38,7 +37,6 @@ int main(int argc, char *argv[])
 	int sum = 0;
 
 	count = 1;
-
 	while (count < argc)
 	{
 		if (check_num(argv[count]))
@@ -50,8 +48,8 @@ int main(int argc, char *argv[])
 		{
 			printf("Error\n");
 			return (1);
-			{
-		  count++;
+		}
+		count++;
 	}
 	printf("%d\n", sum);
 	return (0);
