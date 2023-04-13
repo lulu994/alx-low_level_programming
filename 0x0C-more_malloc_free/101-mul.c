@@ -83,5 +83,11 @@ int main(int argc, char *argv[])
 	free(result);
 	return (0);
 }
-
-
+ /**
+   * errors - handles errors for main
+   */
+void errors(void)
+{
+	printf("Error\n");
+	exit(98);
+}
