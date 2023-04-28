@@ -6,7 +6,7 @@
 
 ## Description About the Directories
 
-| DIRECTORY | DESCRIPCION | README |
+| DIRECTORY |          | README |
 | :--- | :--- | :--- |
 |  [0x00-hello_world](https://github.com/lulu994/alx-low_level_programming/tree/master/0x00-hello_world)|
 |  [0x01-variables_if_else_while](https://github.com/lulu994/alx-low_level_programming/tree/main/0x01-variables_if_else_while)|
@@ -26,3 +26,4 @@
 |  [0x0F-function_pointers](https://github.com/lulu994/alx-low_level_programming/tree/main/0x0F-function_pointers)|
 |  [0x10-variadic_functions](https://github.com/lulu994/alx-low_level_programming/tree/main/0x10-variadic_functions)|
 |  [0x12-singly_linked_lists](https://github.com/lulu994/alx-low_level_programming/tree/main/0x12-singly_linked_lists)|
+|  [0x13-more_singly_linked_lists](https://github.com/lulu994/alx-low_level_programming/tree/main/0x13-more_singly_linked_lists)|
