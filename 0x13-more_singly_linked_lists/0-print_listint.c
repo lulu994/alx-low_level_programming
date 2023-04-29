@@ -1,4 +1,8 @@
 #include "lists.h"
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+
 /**
  * print_listint - This function print int in every position
  * @h: This is my structure entry
