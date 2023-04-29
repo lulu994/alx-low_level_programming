@@ -1,5 +1,4 @@
 #include "lists.h"
-
 /**
  * print_listint - This function print int in every position
  * @h: This is my structure entry
