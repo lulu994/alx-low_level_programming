@@ -1,8 +1,12 @@
-##C - malloc, free
+# C - malloc, free
 
-####TASKS
+###### malloc() - The malloc() function is used to dynamically allocate memory during runtime. When you call this function, it requests a block of memory of a specified size from the heap and returns a pointer to the start of the allocated block.
 
-####[0. Float like a butterfly, sting like a bee](0-create_array.c)
+###### free() - The free() function is used to deallocate memory that was previously allocated by a call to malloc().
+
+### TASKS
+
+##### [0. Float like a butterfly, sting like a bee](0-create_array.c)
 
 - Write a function that creates an array of chars, and initializes it with a specific char.
 
@@ -10,7 +14,7 @@ Prototype: char *create_array(unsigned int size, char c);
 - Returns NULL if size = 0
 - Returns a pointer to the array, or NULL if it fails
 
-####[1. The woman who has no imagination has no wings](1-strdup.c)
+##### [1. The woman who has no imagination has no wings](1-strdup.c)
 
 - Write a function that returns a pointer to a newly allocated space in memory, which contains a copy of the string given as a parameter.
 
@@ -20,7 +24,7 @@ Prototype: char *create_array(unsigned int size, char c);
 - On success, the _strdup function returns a pointer to the duplicated string. It returns NULL if insufficient memory was available
 
 
-#### [2. He who is not courageous enough to take risks will accomplish nothing in life](2-str_concat.c)
+##### [2. He who is not courageous enough to take risks will accomplish nothing in life](2-str_concat.c)
 
 - Write a function that concatenates two strings.
 
@@ -30,7 +34,7 @@ if NULL is passed, treat it as an empty string
 - The function should return NULL on failure
 
 
-####[3. If you even dream of beating me you'd better wake up and apologize](3-alloc_grid.c)
+##### [3. If you even dream of beating me you'd better wake up and apologize](3-alloc_grid.c)
 
 - Write a function that returns a pointer to a 2 dimensional array of integers.
 
@@ -40,7 +44,7 @@ if NULL is passed, treat it as an empty string
 - If width or height is 0 or negative, return NULL
 
 
-####[4. It's not bragging if you can back it up](4-free_grid.c)
+##### [4. It's not bragging if you can back it up](4-free_grid.c)
 
 Write a function that frees a 2 dimensional grid previously created by your alloc_grid function.
 
@@ -48,7 +52,7 @@ Prototype: void free_grid(int **grid, int height);
 Note that we will compile with your alloc-grid.c file. Make sure it compiles.
 
 
-####[5. It isn't the mountains ahead to climb that wear you out; it's the pebble in your shoe](100-argstostr.c)
+##### [5. It isn't the mountains ahead to climb that wear you out; it's the pebble in your shoe](100-argstostr.c)
 
 
 - Write a function that concatenates all the arguments of your program.
@@ -59,7 +63,7 @@ Note that we will compile with your alloc-grid.c file. Make sure it compiles.
 - Each argument should be followed by a \n in the new string
 
 
-####[6. I will show you how great I am] (101-strtow.c)
+##### [6. I will show you how great I am] (101-strtow.c)
 
 - Write a function that splits a string into words
 
@@ -70,3 +74,5 @@ Note that we will compile with your alloc-grid.c file. Make sure it compiles.
 - Words are separated by spaces
 - Returns NULL if str == NULL or str == ""
 - If your function fails, it should return NULL
+
+### File: `main.h` is a header file contaning all the function prototypes.
