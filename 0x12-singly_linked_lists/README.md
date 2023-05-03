@@ -1,4 +1,8 @@
-# 0x12. C - Singly linked lists
+# PROJECT : 0x12. C - Singly linked lists
+
+## C - Singly linked lists
+
+##### Singly linked lists are a type of data structure that consists of a sequence of nodes, each containing a value and a pointer to the next node in the sequence. The first node in the list is called the head, and the last node is called the tail. Singly linked lists differ from doubly linked lists in that each node only has a pointer to the next node in the sequence, while doubly linked lists have pointers to both the next and previous nodes. Singly linked lists can be used to implement a variety of algorithms and data structures, such as stacks, queues, and hash tables. They are particularly useful when the size of the data is not known in advance and must be dynamically allocated during runtime. Some common operations on singly linked lists include inserting a new node at the beginning or end of the list, deleting a node from the list, and traversing the list to access or modify the values of the nodes. Singly linked lists are also used as the underlying data structure for other advanced data structures like Graphs or trees.
 
 ## GENERAL 
 
