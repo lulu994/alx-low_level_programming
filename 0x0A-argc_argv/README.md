@@ -1,6 +1,12 @@
-0x0A. C - argc, argv
+# PRIJECT : 0x0A. C - argc, argv
 
-Tasks
+###### argc and argv are parameters used in the main() function to receive command line arguments passed to a program when it is executed.
+
+###### argc is an integer variable that holds the number of arguments passed to the program, including the program name itself.
+
+###### argv is an array of strings that contains the actual arguments passed to the program, with the program name being argv[0]. Each subsequent argument is stored in the subsequent index of the array.
+
+## Tasks
 
 
 0. It ain't what they call you, it's what you answer to
