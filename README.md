@@ -8,7 +8,7 @@
 
 | DIRECTORY |          | README |
 | :--- | :--- | :--- |
-|  [0x00-hello_world](https://github.com/lulu994/alx-low_level_programming/tree/master/0x00-hello_world)|
+|  [0x00-hello_world](https://github.com/lulu994/alx-low_level_programming/tree/master/0x00-hello_world)||  [README.md](https://https://github.com/lulu994/alx-low_level_programming/blob/master/0x00-hello_world/README.md)
 |  [0x01-variables_if_else_while](https://github.com/lulu994/alx-low_level_programming/tree/main/0x01-variables_if_else_while)|
 |  [0x02-functions_nested_loops](https://github.com/lulu994/alx-low_level_programming/tree/main/0x02-functions_nested_loops)|
 |  [0x03-debugging](https://github.com/lulu994/alx-low_level_programming/tree/main/0x03-debugging) |
