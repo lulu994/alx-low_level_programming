@@ -1,8 +1,8 @@
-##C - More malloc, free
+# C - More malloc, free
 
-###TASKS
+### TASKS
 
-####[0. Trust no one](0-malloc_checked.c)
+#### [0. Trust no one](0-malloc_checked.c)
 
 Write a function that allocates memory using malloc
 
@@ -10,7 +10,7 @@ Write a function that allocates memory using malloc
 - Returns a pointer to the allocated memory
 if malloc fails, the malloc_checked function should cause normal process termination with a status value of 98
 
-####[1. string_nconcat](1-string_nconcat.c)
+#### [1. string_nconcat](1-string_nconcat.c)
 
 Write a function that concatenates two strings.
 
@@ -20,7 +20,7 @@ Write a function that concatenates two strings.
 - If n is greater or equal to the length of s2 then use the entire string s2
 - if NULL is passed, treat it as an empty string
 
-####[2. _calloc](2-calloc.c)
+#### [2. _calloc](2-calloc.c)
 
 Write a function that allocates memory for an array, using malloc.
 
@@ -30,7 +30,7 @@ Write a function that allocates memory for an array, using malloc.
 - If nmemb or size is 0, then _calloc returns NULL
 - If malloc fails, then _calloc returns NULL
 
-####[3. array_range](3-array_range.c)
+#### [3. array_range](3-array_range.c)
 
 Write a function that creates an array of integers.
 
@@ -40,7 +40,7 @@ Write a function that creates an array of integers.
 - If min > max, return NULL
 - If malloc fails, return NULL
 
-####[4. _realloc](100-realloc.c)
+#### [4. _realloc](100-realloc.c)
 
 Write a function that reallocates a memory block using malloc and free
 
@@ -55,7 +55,7 @@ Write a function that reallocates a memory block using malloc and free
 - If new_size is equal to zero, and ptr is not NULL, then the call is equivalent to free(ptr). Return NULL
 - Don’t forget to free ptr when it makes sense
 
-####[5. We must accept finite disappointment, but never lose infinite hope](101-mul.c)
+#### [5. We must accept finite disappointment, but never lose infinite hope](101-mul.c)
 
 Write a program that multiplies two positive numbers.
 
