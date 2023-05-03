@@ -1,4 +1,4 @@
-# PRIJECT : 0x0A. C - argc, argv
+# PROJECT : 0x0A. C - argc, argv
 
 ###### argc and argv are parameters used in the main() function to receive command line arguments passed to a program when it is executed.
 
