@@ -1,16 +1,20 @@
-0x0F. C - Function pointers
+# 0x0F. C - Function pointers
 
-C - Function pointers
+## C - Function pointers
 
-TASKS
+##### Function pointers are variables that store the memory address of functions. They allow you to pass functions to other functions as arguments, or to store them as variables, which can be useful in many programming scenarios.
 
-###[0. What's my name](0-print_name.c)
+##### Function pointers can be used to make code more flexible and modular. They can also be used to implement various design patterns such as callback functions and event handlers.
+
+## TASKS
+
+### [0. What's my name](0-print_name.c)
 
 Write a function that prints a name.
 
 Prototype: void print_name(char *name, void (*f)(char *));
 
-###[1. If you spend too much time thinking about a thing, you'll never get it done](1-array_iterator.c)
+### [1. If you spend too much time thinking about a thing, you'll never get it done](1-array_iterator.c)
 
 Write a function that executes a function given as a parameter on each element of an array.
 
@@ -18,7 +22,7 @@ Write a function that executes a function given as a parameter on each element o
 - where size is the size of the array
 - and action is a pointer to the function you need to use
 
-###[2. To hell with circumstances; I create opportunities](2-int_index.c)
+### [2. To hell with circumstances; I create opportunities](2-int_index.c)
 
 Write a function that searches for an integer.
 
@@ -29,7 +33,7 @@ Write a function that searches for an integer.
 - If no element matches, return -1
 - If size <= 0, return -1
 
-###[3. A goal is not always meant to be reached, it often serves simply as something to aim at](3-main.c, 3-op_functions.c, 3-get_op_func.c, 3-calc.h)
+### [3. A goal is not always meant to be reached, it often serves simply as something to aim at](3-main.c, 3-op_functions.c, 3-get_op_func.c, 3-calc.h)
 
 Write a program that performs simple operations.
 
@@ -50,11 +54,11 @@ Write a program that performs simple operations.
 
 This task requires that you create four different files.
 
-###[3-calc.h]
+### [3-calc.h]
 
 This file should contain all the function prototypes and data structures used by the program.
 
-###[3-op_functions.c]
+### [3-op_functions.c]
 
 his file should contain the 5 following functions (not more):
 	
@@ -64,7 +68,7 @@ his file should contain the 5 following functions (not more):
 - op_div: returns the result of the division of a by b. Prototype: int op_div(int a, int b);
 - op_mod: returns the remainder of the division of a by b. Prototype: int op_mod(int a, int b);
 
-###[3-get_op_func.c]
+### [3-get_op_func.c]
 
 This file should contain the function that selects the correct function to perform the operation asked by the user. You’re not allowed to declare any other function.
 
@@ -80,7 +84,7 @@ This file should contain the function that selects the correct function to perfo
 - If s does not match any of the 5 expected operators (+, -, *, /, %), return NULL
 - You are only allowed to declare these two variables in this function:
 
-###[3-main.c]
+### [3-main.c]
 
 This file should contain your main function only.
 
@@ -90,7 +94,7 @@ This file should contain your main function only.
 - You are not allowed to use any kind of loop
 - You are allowed to use a maximum of 3 if statements
 
-###[4. Most hackers are young because young people tend to be adaptable. As long as you remain adaptable, you can always be a good hacker](100-main_opcodes.c)
+### [4. Most hackers are young because young people tend to be adaptable. As long as you remain adaptable, you can always be a good hacker](100-main_opcodes.c)
 
 Write a program that prints the opcodes of its own main function.
 
