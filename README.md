@@ -8,11 +8,11 @@
 
 | DIRECTORY |          | README |
 | :--- | :--- | :--- |
-|  [0x00-hello_world](https://github.com/lulu994/alx-low_level_programming/tree/master/0x00-hello_world)|     | [README.md](https://https://github.com/lulu994/alx-low_level_programming/blob/master/0x00-hello_world/README.md)
-|  [0x01-variables_if_else_while](https://github.com/lulu994/alx-low_level_programming/tree/master/0x01-variables_if_else_while)|     | [README.md](https://https://github.com/lulu994/alx-low_level_programming/blob/master/0x01-variables_if_else_while/README.md)
-|  [0x02-functions_nested_loops](https://github.com/lulu994/alx-low_level_programming/tree/master/0x02-functions_nested_loops)|      | [README.md](https://https://github.com/lulu994/alx-low_level_programming/blob/ma    ster/0x02-functions_nested_loops/README.md)
-|  [0x03-debugging](https://github.com/lulu994/alx-low_level_programming/tree/master/0x03-debugging)|      | [README.md](https://https://github.com/lulu994/alx-low_level_programming/blob/master/0x03-debugging/README.md)
-|  [0x04-more_functions_nested_loops](https://github.com/lulu994/alx-low_level_programming/tree/master/0x04-more_functions_nested_loops)|      | [README.md](https://https://github.com/lulu994/alx-low_level_programming/blob/master/0x04-more_functions_nested_loops/README.md)
+|  [0x00-hello_world](https://github.com/lulu994/alx-low_level_programming/tree/master/0x00-hello_world)|     | [README.md](https://github.com/lulu994/alx-low_level_programming/blob/master/0x00-hello_world/README.md)
+|  [0x01-variables_if_else_while](https://github.com/lulu994/alx-low_level_programming/tree/master/0x01-variables_if_else_while)|     | [README.md](https://github.com/lulu994/alx-low_level_programming/blob/master/0x01-variables_if_else_while/README.md)
+|  [0x02-functions_nested_loops](https://github.com/lulu994/alx-low_level_programming/tree/master/0x02-functions_nested_loops)|      | [README.md](https://github.com/lulu994/alx-low_level_programming/blob/ma    ster/0x02-functions_nested_loops/README.md)
+|  [0x03-debugging](https://github.com/lulu994/alx-low_level_programming/tree/master/0x03-debugging)|      | [README.md](https://github.com/lulu994/alx-low_level_programming/blob/master/0x03-debugging/README.md)
+|  [0x04-more_functions_nested_loops](https://github.com/lulu994/alx-low_level_programming/tree/master/0x04-more_functions_nested_loops)|      | [README.md](https://github.com/lulu994/alx-low_level_programming/blob/master/0x04-more_functions_nested_loops/README.md)
 |  [0x05-pointers_arrays_strings)](https://github.com/lulu994/alx-low_level_programming/tree/master/0x05-pointers_arrays_strings)|
 |  [0x06- More pointers_arrays_strings](https://github.com/lulu994/alx-low_level_programming/tree/master/0x06-pointers_arrays_strings)|
 |  [0x07-Even more pointers_arrays_strings](https://github.com/lulu994/alx-low_level_programming/tree/master/0x07-pointers_arrays_strings)|
@@ -26,5 +26,5 @@
 |  [0x0F-function_pointers](https://github.com/lulu994/alx-low_level_programming/tree/master/0x0F-function_pointers)|
 |  [0x10-variadic_functions](https://github.com/lulu994/alx-low_level_programming/tree/master/0x10-variadic_functions)|
 |  [0x12-singly_linked_lists](https://github.com/lulu994/alx-low_level_programming/tree/master/0x12-singly_linked_lists)|
-|  [0x13-more_singly_linked_lists](https://github.com/lulu994/alx-low_level_programming/tree/master/0x13-more_singly_linked_lists)|      |  [README.md]
-|  [0x14-bit_manipulation](https://github.com/lulu994/alx-low_level_programming/tree/master/0x14-bit_manipulation)|      |  [README.md]
+|  [0x13-more_singly_linked_lists](https://github.com/lulu994/alx-low_level_programming/tree/master/0x13-more_singly_linked_lists)|      |  [README.md](https://github.com/lulu994/alx-low_level_programming/blob/master/0x13-more_singly_linked_lists/README.md)
+|  [0x14-bit_manipulation](https://github.com/lulu994/alx-low_level_programming/tree/master/0x14-bit_manipulation)|      |  [README.md](https://github.com/lulu994/alx-low_level_programming/blob/master/0x14-bit_manipulation/README.md)
