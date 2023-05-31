@@ -15,8 +15,8 @@
 |  [0x04-more_functions_nested_loops](https://github.com/lulu994/alx-low_level_programming/tree/master/0x04-more_functions_nested_loops)|      | [README.md](https://github.com/lulu994/alx-low_level_programming/blob/master/0x04-more_functions_nested_loops/README.md)
 |  [0x05-pointers_arrays_strings)](https://github.com/lulu994/alx-low_level_programming/tree/master/0x05-pointers_arrays_strings)|      | [README.md](https://github.com/lulu994/alx-low_level_programming/blob/master/0x05-pointers_arrays_strings/README.md)
 |  [0x06- More pointers_arrays_strings](https://github.com/lulu994/alx-low_level_programming/tree/master/0x06-pointers_arrays_strings)|      | [README.md](https://github.com/lulu994/alx-low_level_programming/blob/master/0x06-pointers_arrays_strings/README.md)
-|  [0x07-Even more pointers_arrays_strings](https://github.com/lulu994/alx-low_level_programming/tree/master/0x07-pointers_arrays_strings)|
-|  [0x08-recursion](https://github.com/lulu994/alx-low_level_programming/tree/master/0x08-recursion)|
+|  [0x07-Even more pointers_arrays_strings](https://github.com/lulu994/alx-low_level_programming/tree/master/0x07-pointers_arrays_strings)|      | [README.md](https://github.com/lulu994/alx-low_level_programming/blob/master/0x07-pointers_arrays_strings/README.md)
+|  [0x08-recursion](https://github.com/lulu994/alx-low_level_programming/tree/master/0x08-recursion)|      | [README.md](https://github.com/lulu994/alx-low_level_programming/blob/master/0x08-recursion/README.md)
 |  [0x09-static_libraries](https://github.com/lulu994/alx-low_level_programming/tree/master/0x09-static_libraries)|
 |  [0x0A-argc_argv](https://github.com/lulu994/alx-low_level_programming/tree/master/0x0A-argc_argv)|
 |  [0x0B-malloc_free](https://github.com/lulu994/alx-low_level_programming/tree/master/0x0B-malloc_free)|
