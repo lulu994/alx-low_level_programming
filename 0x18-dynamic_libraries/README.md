@@ -14,7 +14,6 @@
  <ol>
 	<li><a href="/rltoken/FrHmqtTW-frrOt0yf2blOw" title="What is difference between Dynamic and Static library (Static and Dynamic linking)" target="_blank">What is difference between Dynamic and Static library (Static and Dynamic linking)</a> </li>
 	<li><a href="/rltoken/Zj0XtgNWUQyEYuABr47p8Q" title="create dynamic libraries on Linux" target="_blank">create dynamic libraries on Linux</a> </li>
-	<li><a href="/rltoken/NnmQ5eohod3BpT3r0cFlRA" title="Technical Writing" target="_blank">Technical Writing</a></li>
 </ol>
 
 ## INTRODUCTION TO FILES 
