@@ -31,3 +31,4 @@
 |  [0x15-file_io](https://github.com/lulu994/alx-low_level_programming/tree/master/0x15-file_io)|      |  [README.md](https://github.com/lulu994/alx-low_level_programming/blob/master/0x15-file_io/README.md)
 |  [0x17-doubly_linked_lists](https://github.com/lulu994/alx-low_level_programming/tree/master/0x17-doubly_linked_lists)|      |  [README.md](https://github.com/lulu994/alx-low_level_programming/blob/master/0x17-doubly_linked_lists/README.md)
 |  [0x18-dynamic_libraries](https://github.com/lulu994/alx-low_level_programming/tree/master/0x18-dynamic_libraries)|      |  [README.md](https://github.com/lulu994/alx-low_level_programming/blob/master/0x18-dynamic_libraries/README.md)
+|  [0x1A-hash_tables](https://github.com/lulu994/alx-low_level_programming/tree/master/0x1A-hash_tables)|      |  [README.md](https://github.com/lulu994/alx-low_level_programming/blob/master/0x1A-hash_tables/README.md)
