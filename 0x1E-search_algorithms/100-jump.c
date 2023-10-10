@@ -1,73 +1,44 @@
 #include "search_algos.h"
+#include <math.h>
 
 /**
- * print_range - print at each value check
- * @i: index before jump
- * @j: index after jump
- */
-void print_range(size_t i, size_t j)
-{
-	printf("Value found between indexes [%lu] and [%lu]\n", i, j);
-}
-
-/**
- * print_i - print idx each check
- * @array: array
- * @i: index checked
- */
-void print_i(int *array, size_t i)
-{
-	printf("Value checked array[%lu] = [%d]\n", i, array[i]);
-}
-
-/**
- * jump_search - perform a jump search ie find square root,
- * jump steps to find match, end linear search
- * @array: given array of ints
- * @size: size of array
- * @value: value to search for
- * Return: index at which value's found
+ * jump_search - searches for a value in an array of
+ * integers using the Jump search algorithm
+ *
+ * @array: input array
+ * @size: size of the array
+ * @value: value to search in
+ * Return: index of the number
  */
 int jump_search(int *array, size_t size, int value)
 {
-	size_t jumps = sqrt(size);
-	size_t i = 0;
-	size_t j = 0;
+	int index, m, k, prev;
 
-	if (!array)
-		goto KILL;
-	while (j <= size)
+	if (array == NULL || size == 0)
+		return (-1);
+
+	m = (int)sqrt((double)size);
+	k = 0;
+	prev = index = 0;
+
+	do {
+		printf("Value checked array[%d] = [%d]\n", index, array[index]);
+
+		if (array[index] == value)
+			return (index);
+		k++;
+		prev = index;
+		index = k * m;
+	} while (index < (int)size && array[index] < value);
+
+	printf("Value found between indexes [%d] and [%d]\n", prev, index);
+
+	for (; prev <= index && prev < (int)size; prev++)
 	{
-		if (j != 0)
-			print_i(array, i);
-		if (array[j] >= value)
-		{
-			print_range(i, j);
-			while (i <= j)
-			{
-				print_i(array, i);
-				if (array[i] == value)
-					return (i);
-				i++;
-			}
-			goto KILL;
-		}
-		if (j + jumps + jumps > size)
-		{
-			print_i(array, j);
-			print_range(j, j + jumps);
-			while (j < size)
-			{
-				print_i(array, j);
-				if (array[j] == value)
-					return (j);
-				j++;
-			}
-			goto KILL;
-
-		}
-		i = j;
-		j += jumps;
+		printf("Value checked array[%d] = [%d]\n", prev, array[prev]);
+		if (array[prev] == value)
+			return (prev);
 	}
-KILL:	return (-1);
+
+	return (-1);
 }
